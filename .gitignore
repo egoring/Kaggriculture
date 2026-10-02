@@ -1,0 +1,13 @@
+# raw episode logs (110GB) and caches
+logs/**
+!logs/README.md
+*.pkl
+*.json.gz
+__pycache__/
+*.pyc
+_to_delete/
+Claude outputs/
+
+# submission files are not published
+submissions/
+**/submission*.py
